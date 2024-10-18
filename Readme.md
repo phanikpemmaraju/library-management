@@ -53,17 +53,23 @@ In order to achieve the functionality of a library management service in the giv
 
 Once the application is run locally (http://localhost:8282), you can test the application using the request payloads located below.
 
-`` src/test/resources/features/api/request``
+    src/test/resources/features/api/request
 
 All the endpoints and scenarios can be found in the below.
 
-``src/test/resources/features/api/add-book.feature``
-``src/test/resources/features/api/borrow-book-by-isbn.feature``
-``src/test/resources/features/api/find-book-by-author.feature``
-``src/test/resources/features/api/find-book-by-isbn.feature``
-``src/test/resources/features/api/rate-limit.feature``
-``src/test/resources/features/api/remove-book.feature``
-``src/test/resources/features/api/return-book-by-isbn.feature``
+    src/test/resources/features/api/add-book.feature
+
+    src/test/resources/features/api/borrow-book-by-isbn.feature
+
+    src/test/resources/features/api/find-book-by-author.feature
+
+    src/test/resources/features/api/find-book-by-isbn.feature
+
+    src/test/resources/features/api/rate-limit.feature
+
+    src/test/resources/features/api/remove-book.feature
+
+    src/test/resources/features/api/return-book-by-isbn.feature
 
 
 
