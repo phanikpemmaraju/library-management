@@ -14,7 +14,6 @@ import io.restassured.config.RestAssuredConfig;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 import org.json.JSONException;
-import org.skyscreamer.jsonassert.Customization;
 import org.skyscreamer.jsonassert.JSONAssert;
 import org.skyscreamer.jsonassert.JSONCompareMode;
 import org.skyscreamer.jsonassert.comparator.CustomComparator;
@@ -92,6 +91,6 @@ public class ClientSteps {
 
         JSONAssert.assertEquals(expectedResponseBody,
                 actualResponseBody,
-                new CustomComparator(JSONCompareMode.LENIENT, new Customization("data.attributes.audit", (o1, o2) -> true)));
+                new CustomComparator(JSONCompareMode.LENIENT));
     }
 }
