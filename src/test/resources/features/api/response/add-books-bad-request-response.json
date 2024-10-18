@@ -1,0 +1,7 @@
+{
+  "author": "must not be blank",
+  "availableCopies": "must be greater than or equal to 1",
+  "isbn": "must not be blank",
+  "publicationYear": "must be less than or equal to 2024",
+  "title": "must not be blank"
+}
